@@ -1,0 +1,133 @@
+Database schemas
+
+SiteUser:
+- Name
+- Username
+- Password
+- Is Active
+- Type
+- Created At
+- Updated At
+
+Mobile Users
+- Mobile Number
+- Created At
+
+Language
+- Name
+- Is Active
+
+Country
+- Name
+- Flag
+- Is Active
+
+Products
+- Name
+- Category
+- Image
+- Price 1
+- Price 2
+- Price 3
+- Description
+- Created At
+- Updated At
+- Admin Creator
+- Language
+- Is Active
+
+Country-Products
+- Country
+- Product
+- Price 1
+- Price 2
+- Price 3
+
+App-Words
+- Word
+
+App-Localization
+- Language Name
+- Localization
+
+Mobile User
+- Mobile Number
+- User Token
+
+Product-Subscription
+- Product ID
+- User ID
+- Time
+- Amount
+
+Push-Notifications
+- Product ID
+- User ID
+- Time
+- Device
+- Device ID
+- Date
+
+30499
+
+2. fruit / vegetable / meat / fish
+
+scp -i "mykeypair.pem" /home/jigar/Documents/Projects/eatables-api-app/data/products/1490508403306-ar.PNG  ec2-user@ec2-35-157-241-224.eu-central-1.compute.amazonaws.com:/home/ec2-user/eatables/eatables-api-app/data/products
+
+
+Mobile APIS
+
+Country
+Language
+Slides
+Products
+Product Total Views
+Product Detail
+Localization
+Mobile Number Verification
+
+OraA3KR!=z--7A*4Rt@!MQ7UPVsJG*s?WC=7
+djoli.djolilo@gmail.com
+
+Application ID: mB63Cf7Im61dyqe1
+Client ID: Cds8IGutQ12fyAs5UAW55STqXCbPuhjG
+Client secret: mTDyvfX7XTfhy0bD
+Authorization header: Basic Q2RzOElHdXRRMTJmeUFzNVVBVzU1U1RxWENiUHVoakc6bVREeXZmWDdYVGZoeTBiRA==
+
+
+access key : AKIAJLMJUC666DFAFHXA
+secret key : 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
+
+AKIAI6SFIPTRNWNDEU3Q
+zul8m4TI5F6GBZWKPYofjyZcRBPLRwodR/juv00r
+
+ // var options = {
+    //     hostname: 'api.orange.com',
+    //     path: '/smsmessaging/v1/outbound/tel%3A%2B918460163577/requests',
+    //     method: 'POST',
+    //     headers: {
+    //         'Content-Type': 'application/json',
+    //         'Authorization': 'Bearer saGo6AlEmd8XmH99gnDZqJxyvwzz'
+    //     }
+    // };
+
+    // var reqPost = https.request(options, function (ress) {
+    //     ress.on('data', function (d) {
+    //         res.json(JSON.parse(d.toString()));
+    //     });
+    // });
+
+    // jsonObject = JSON.stringify({
+    //     "outboundSMSMessageRequest": {
+    //         "address": "tel:" + mobile_number,
+    //         "outboundSMSTextMessage": {
+    //             "message": "Hello world! You pin is 2562"
+    //         },
+    //         "senderAddress": "tel:+918460163577"
+    //     }
+    // });
+    // reqPost.write(jsonObject);
+    // reqPost.end();
+    // reqPost.on('error', function (e) {
+    //     console.error(e);
+    // });
